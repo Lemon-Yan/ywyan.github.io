@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            width:300px;
+            margin:0 auto;
+        }
+        div{
+            margin:5px;
+            padding:5px;
+            border:solid #ccc 1px;
+        }
+        div div{
+            background-color:orange;
+        }
+        body>div{
+            background-color:green;
+        }
+        .active~div{
+            background-color:lime;
+        }
+    </style>
+</head>
+<body>
+<div>1</div>
+<div class="active">2</div>
+<div>3</div>
+<div>4
+    <div>5</div>
+    <div>6</div>
+</div>
+<div>7
+    <div>8
+        <div>9
+            <div>10</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
