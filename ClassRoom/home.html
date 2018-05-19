@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/home2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="head-img">
+               <!--  <img src="img/person.png" alt=""> -->
+            </div>
+            <div class="class-room" id="elitesClass">
+                <h3>精英课堂</h3>
+                <div class="class-con" id="wowIcon">
+                    <p>定期在门店邀请行业大咖莅临的</p>
+                    <p>大型课程活动——精英课堂，</p>
+                    <p>让你和顶尖讲师面对面交流，分分钟钟变身达人大咖！</p>
+                    <p class="date">5月26日——成都、上海、哈尔滨，</p>
+                    <p class="date">6月2日——苏州，正在招募中！</p>
+                </div>
+                <div class="btn-con">
+                    <div class="btn">
+                        <a href="http://msar.funclass.greatseacn.com?track=mini">立即报名</a>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="class-room" id="smallClass">
+                <h3>小课堂</h3>
+                <div class="class-con" id="startIcon">
+                    <p>在全国各地门店开设的Xbox“科学吃鸡”、视频制作、</p>
+                    <p>PPT/Excel、Surface触控笔等小而专的课程，</p>
+                    <p> 让你的操作突飞猛进！</p>
+                </div>
+                <div class="btn-con">
+                    <div class="btn">
+                        <a href="http://ccg.api.socialhubplus.com/SmallClass/index">立即报名</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+var htmlDOM = document.getElementsByTagName('html')[0];
+htmlDOM.style.fontSize = htmlWidth / 10 + 'px';
+
+window.addEventListener('resize', function (e) {
+  var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+  htmlDOM.style.fontSize = htmlWidth / 10 + 'px';
+});
+</script>
+</html>

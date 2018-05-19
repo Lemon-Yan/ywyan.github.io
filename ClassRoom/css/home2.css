@@ -1,0 +1,129 @@
+ * {
+     margin: 0;
+     padding: 0 
+}
+ html, body {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 10;
+     background-image:url(../img/bg2.png);
+     background-repeat: no-repeat;
+     background-position: 0rem 0rem;
+     background-color: #bae2f8;
+     background-size: 100% 100%;
+}
+/* .container {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 10;
+     background-image: url(../img/bg2.png);
+     background-repeat: no-repeat;
+     background-position: 0rem 0rem;
+     background-size: 100% 100%;
+}
+ */
+ .head-img {
+     height: 11.25rem;
+     background-image: url(../img/person.png);
+     background-repeat: no-repeat;
+     background-position: 50% 0rem;
+     background-size: contain;
+}
+ .main {
+     position: absolute;
+     top: 5%;
+     left: 0;
+     z-index: 99;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     width: 100%;
+     margin-bottom: 1rem;
+}
+ .head-img {
+     margin: 0 0 0.3125rem 0;
+     margin: 0.625rem 2.5rem;
+}
+ .head-img img {
+     width: 80%;
+     height: 11.25rem;
+}
+ .class-room {
+     background: url(../img/txt-bg.png) no-repeat center;
+     background-size: 100% 100%;
+     position: relative;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     margin: 0 1.25rem;
+}
+ .class-room h3 {
+     font-size: 1.0625rem;
+     color: #f25022;
+     text-align: center;
+     line-height: 1.25rem;
+     padding-top: 0.9375rem;
+}
+ #startIcon::before {
+     content: "";
+     position: absolute;
+     top: 1.125rem;
+     left: 0.6875rem;
+     z-index: 99;
+     background: url(../img/start.png) no-repeat center;
+     background-size: 2.1875rem;
+     height: 3.125rem;
+     width: 3.125rem;
+}
+ #wowIcon::before {
+     content: "";
+     position: absolute;
+     top: -0.625rem;
+     right: 1.25rem;
+     z-index: 99;
+     background: url(../img/wow.png) no-repeat center;
+     background-size: 3.125rem;
+     height: 3.125rem;
+     width: 3.125rem;
+}
+ .class-con {
+     padding: 0 0.4375rem 1.875rem;
+     position: relative;
+}
+ .class-con p {
+     font-size: 0.75rem;
+     color: #3e3a39;
+     line-height: 1.3125rem;
+     text-align: center;
+}
+ .btn-con {
+     position: absolute;
+     bottom: -0.1875rem;
+     left: 0;
+     z-index: 99;
+     width: 100%;
+     text-align: center;
+}
+ .btn-con .btn {
+     background-color: #e83946;
+     width: 5.625rem;
+     height: 1.875rem;
+     border-radius: 0.9375rem;
+     margin: 0 auto;
+}
+ .btn-con .btn a {
+     font-size: 0.9375rem;
+     color: #fff;
+     line-height: 1.875rem;
+     text-decoration: none;
+}
+ .line {
+     background: url(../img/line.png) no-repeat center;
+     margin: 0.625rem 1.875rem;
+     height: 0.3125rem;
+     background-size: contain;
+}
+ .date {
+     font-weight: 700;
+}
+ 
