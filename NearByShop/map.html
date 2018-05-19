@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微软售后服务站</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/iphonex.css" />
+</head>
+
+<body>
+    <!-- <div class="header" id="header">
+        <img src="img/header.png" alt="" />
+    </div> -->
+    <div id="map">
+        <img src="img/map2.png" alt="" class="map-img" />
+    </div>
+    <div class="container" id="main">
+        <div class="navBtn">
+            <img src="img/daohang-a.png" class="nav-icon" />
+        </div>
+        <div class="mapInfo">
+            <ul id="infoList">
+                <li class="clearfix listItem1">
+                    <p class="title-fu">微软售后服务站</p>
+                    <!--  <p class="title-main">上海橘果金虹桥中心店</p> -->
+                </li>
+                <li class="clearfix listItem listItem2">
+                    <img src="img/position2.png" alt="" id="map-png" />
+                    <p class="">上海茅台路金虹桥国际中心1楼 上海茅台路金虹桥国际中心1楼
+                        <span class="hen">|</span>
+                        <span>2.8km</span>
+                    </p>
+                </li>
+                <li class="clearfix listItem listItem3">
+                    <img src="img/phone.png" alt="" id="phone-png" />
+                    <p>门店电话：021-2238217</p>
+                </li>
+                <li class="clearfix listItem listItem4">
+                    <img src="img/time.png" alt="" id="time-png" />
+                    <p>周一至周六：09:00-18:00</p>
+                    <!--  <p>周一到周五一10:00am-06:00pm</p>
+                    <p class="time-p2 clearfix">周六、周日一09:00am-09:00pm</p> -->
+                </li>
+                <li class="clearfix listItem listItem5">
+                    <img src="img/fangge.png" alt="" id="fangge-png" />
+                    <p>支持的产品：Surface,Xbox</p>
+                </li>
+                <li class="clearfix listItem listItem6">
+                    <img src="img/mian.png" alt="" id="mian-png" />
+                    <a href="javascript:0" class="mianBtn">免责声明</a>
+                </li>
+                <li class="clearfix  listItem7 iphonx">
+                    <div class="footer" id="footer">查询更多售后服务站</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--模态提示框-->
+    <div class="zhezhao uhide">
+        <div class="modal-content">
+            <div class="modal-txt">
+                <h2>免责声明</h2>
+                <span>1、</span>
+                <p>只针对机器硬件故障前提下的外观及功能检测</p>
+                <span>2、</span>
+                <p>如硬件故障排除，要尝试镜像重置和系统安装 </p>
+                <span>3、</span>
+                <p>如硬件故障，要建立维修单并配合机器返厂维修或更换</p>
+            </div>
+            <div class="btn-blue modal-btn">知道了</div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="application/javascript">
+//免责声明
+$(".mianBtn").on("click", function() {
+    $(".zhezhao").removeClass('uhide');
+})
+
+$(".modal-btn").on("click", function() {
+    $(".zhezhao").addClass('uhide');
+})
+</script>
+
+</html>

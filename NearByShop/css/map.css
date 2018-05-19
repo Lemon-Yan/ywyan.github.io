@@ -1,0 +1,232 @@
+html,
+body {
+    height: 100% !important;
+}
+
+#main {
+    position: relative;
+    height: 236px;
+}
+
+.header {
+    width: 100%;
+    height: 160px;
+}
+
+#map {
+    width: 100%;
+    /* height: calc(100% - 160px - 236px);*/
+    height: calc(100% - 236px);
+}
+
+.navBtn {
+    position: absolute;
+    right: 7px;
+    top: -33px;
+}
+
+.navBtn img {
+    width: 75px;
+    height: 75px;
+}
+
+.mapInfo {
+    border-top: solid 1px #ccc;
+}
+
+#map-png {
+    width: 12px;
+    height: 14px;
+    margin: 5px 0px 0 0;
+}
+
+#phone-png {
+    width: 14px;
+    height: 15px;
+    margin: 3px 0 0 0;
+}
+
+#time-png {
+    width: 17px;
+    height: 16px;
+    margin: 3px 0 0 0;
+}
+
+#fangge-png {
+    width: 16px;
+    height: 16px;
+    margin: 4px 0 0 0;
+}
+
+#mian-png {
+    width: 16px;
+    height: 16px;
+    margin: 6px 0 0 0;
+}
+
+#echars-png {
+    width: 25px;
+    height: 33px;
+    margin: 9px 15px 9px 10px;
+}
+
+.listItem1 {
+    margin: 5px 0 0 10px;
+}
+
+.listItem1 .title-fu {
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 35px;
+    position: relative;
+    text-indent: 1.25rem;
+}
+
+.title-fu::before {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    content: '';
+    width: 5px;
+    background-color: #00c5f7;
+    height: 15px;
+}
+
+.listItem1 .title-main {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.listItem2 span {
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.listItem4-map2 {
+    width: 180px;
+    height: 50px;
+    border: solid #ddd 1px;
+    margin: 30px 0 0 0 !important;
+}
+
+.listItem4-map2 span {
+    color: #666;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.hen {
+    margin: 0 10px;
+}
+
+
+#infoList li img {
+    float: left;
+    margin-right: 5px;
+}
+
+#infoList .listItem p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 18px;
+    color: #666;
+    width: 88%;
+}
+
+.listItem2 p {
+    height: 46px !important;
+    line-height: 24px !important;
+}
+
+#infoList .listItem {
+    margin: 0 0 0 15px;
+}
+
+.time-p2 {
+    padding-left: 20px;
+}
+
+#footer {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #0078d7;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 0 5px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.btn-blue {
+    border-radius: 5px;
+}
+
+.listItem6 a {
+    float: left;
+    font-size: 14px;
+    line-height: 29px;
+    color: #666;
+    text-decoration: underline;
+}
+
+
+
+/*modal*/
+
+.modal-content {
+    background-color: #fff;
+    width: 85%;
+    margin: 40% auto;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.modal-txt h2 {
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.modal-txt p {
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #999;
+    float: right;
+    display: inline-block;
+    width: 86%;
+    margin-top: -36px;
+}
+
+.modal-txt span {
+    display: inline-block;
+    float: left;
+    width: 8%;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.modal-btn {
+    overflow: hidden;
+    clear: both;
+}
+
+.pImg {
+    position: relative;
+}
+
+.pImg::before {
+    position: absolute;
+    left: -18px;
+    top: -2px;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background: url(../img/position2.png) no-repeat 0 4px;
+    background-size: 14px 16px;
+}

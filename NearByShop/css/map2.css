@@ -1,0 +1,159 @@
+  html,
+ body {
+     height: 100% !important;
+ }
+
+ #main {
+     position: relative;
+     height: 220px;
+ }
+
+ .header {
+     width: 100%;
+     height: 160px;
+ }
+
+ #map2 {
+     width: 100%;
+     /*height: calc(100% - 160px - 220px);*/
+     height: calc(100% - 220px);
+ }
+
+ .navBtn {
+     position: absolute;
+     right: 7px;
+     top: -33px;
+ }
+
+ .navBtn img {
+     width: 75px;
+     height: 75px;
+ }
+
+ .mapInfo {
+     border-top: solid 1px #ccc;
+ }
+
+
+ #map-png {
+     width: 12px;
+     height: 14px;
+     margin: 2px 0 0 0;
+ }
+
+ #phone-png {
+     width: 22px;
+     height: 21px;
+     margin: 6px 0 0 0;
+ }
+
+ #echars-png {
+     width: 18px;
+     height: 18px;
+     margin: 6px 10px;
+ }
+
+ .listItem1 {
+     margin: 2px 0 0 10px;
+ }
+
+ .listItem1 .title-fu {
+     font-size: 16px;
+     font-weight: 550;
+     line-height: 35px;
+     position: relative;
+     text-indent: 1.25rem;
+ }
+
+ .title-fu::before {
+     position: absolute;
+     left: 8px;
+     top: 10px;
+     content: '';
+     width: 5px;
+     background-color: #00c5f7;
+     height: 15px;
+ }
+
+ .listItem1 .title-main {
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 35px;
+ }
+
+ .listItem2 span {
+     font-size: 14px;
+     color: #8c8c8c;
+ }
+
+ .listItem4-map2 {
+     width: 120px;
+     height: 30px;
+     border: solid #ddd 1px;
+     margin: 10px 0 0 10px !important;
+ }
+
+ .listItem4-map2 span {
+     color: #666;
+     line-height: 30px;
+     font-size: 14px;
+ }
+
+ .hen { 
+     margin: 0 10px;
+ }
+
+
+ #infoList li img {
+     float: left;
+ }
+
+ #infoList .listItem p {
+     /* float: left; */
+     font-size: 14px;
+     line-height: 23px;
+     margin-left: 15px;
+     color: #666;
+     height: 49px;
+     max-width: 92%;
+     overflow:  hidden;
+ }
+
+ #infoList .listItem {
+     margin: 5px 0 0 10px; 
+ }
+
+ .time-p2 {
+     padding-left: 20px;
+ }
+
+ #footer {
+     margin-top: 15px;
+     width: 100%;
+     background-color: #0078d7;
+     text-align: center;
+     font-size: 16px;
+     color: #fff;
+     padding: 7px 0 5px;
+ }
+
+ .figure{
+    height: 46px;
+    padding-top: 3px;
+ }
+
+
+ .pImg {
+    position: relative;
+}
+
+.pImg::before {
+    position: absolute;
+    left: -18px;
+    top: -2px;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background: url(../img/position2.png) no-repeat 0 4px;
+    background-size: 14px 16px;
+}

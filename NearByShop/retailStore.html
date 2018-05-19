@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>门店查询</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/retailStore.css" />
+</head>
+
+<body>
+    <div class="header" id="header">
+        <img src="img/header.png" id="headerImg" />
+    </div>
+    <div class="container" id="main2">
+        <div class="searchBox" id="searchBox">
+            <input type="text" placeholder="搜索城市、门店名称" id="searchInput" />
+            <div class="searchBtn">
+                <img src="img/search.png" alt="" />
+            </div>
+        </div>
+        <div class="searchListBox">
+            <ul id="card">
+                <li class="listRa listRa1">
+                    <div data-id="1" class="tabCom card-l cardLBoxShadow">
+                        <img src="img/mendian.png" id="cardLImg" />
+                        <span>门店查询</span>
+                    </div>
+                    <div data-id="2" class="tabCom card-r active-tab2">
+                        <img src="img/position-active.png" id="cardRImg" />
+                        <span>售后服务站</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="uhide" id="card2">
+                <li class="listRa listRa2 line clearfix">
+                    <p class="mlr20">附近的微软零售店</p>
+                </li>
+                <li class="listRa listRa3 clearfix  line">
+                    <label class="radioLable">
+                        <input class="radioInput" type="radio" name="radioInput" checked="checked">
+                        <span class="radioSpan"></span>
+                        <span class="radioTxt">微软授权店</span>
+                    </label>
+                    <div class="store-name">上海橘果正大乐城店</div>
+                    <div class="position">
+                        <p>上海市徐汇区中山南二路699号正大乐城5-103</p>
+                        <div class="distance">
+                            <img src="img/position2.png" />
+                            <span>2.8km</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="listRa listRa4 clearfix line">
+                    <label class="radioLable">
+                        <input class="radioInput" type="radio" name="radioInput2" checked="checked">
+                        <span class="radioSpan"></span>
+                        <span class="radioTxt">微软授权店</span>
+                    </label>
+                    <div class="store-name">上海兰焜七宝宝龙城市广场店</div>
+                    <div class="position">
+                        <p>上海市漕宝路3299号七宝宝龙城一楼S2-1F-003</p>
+                        <div class="distance">
+                            <img src="img/position2.png" />
+                            <span>5.8km</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="" id="card3">
+                <li class="listRa listRa2 line clearfix">
+                    <p class="mlr20">附近的微软售后服务站</p>
+                </li>
+                <li class="listRa listRa3 clearfix  line">
+                    <label class="radioLable">
+                        <input class="radioInput" type="radio" name="radioInput3" checked="checked">
+                        <span class="radioSpan"></span>
+                        <span class="radioTxt">售后服务站</span>
+                    </label>
+                    <div class="store-name">上海橘果金虹桥中心店</div>
+                    <div class="position">
+                        <p>上海茅台路金虹桥国际中心1楼</p>
+                        <div class="distance">
+                            <img src="img/position2.png" />
+                            <span>2.8km</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="listRa listRa4 clearfix line">
+                    <label class="radioLable">
+                        <input class="radioInput" type="radio" name="radioInput4" checked="checked">
+                        <span class="radioSpan"></span>
+                        <span class="radioTxt">售后服务站</span>
+                    </label>
+                    <div class="store-name">上海兰焜七宝宝龙城市广场店</div>
+                    <div class="position">
+                        <p>上海市漕宝路3299号七宝宝龙城一楼S2-1F-003</p>
+                        <div class="distance">
+                            <img src="img/position2.png" />
+                            <span>5.8km</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--模态提示框-->
+    <div class="zhezhao uhide">
+        <div class="modal-content">
+            <img src="img/mu.png" />
+            <div class="modal-txt">
+                <p>抱歉，</p>
+                <p>您输入的网点没有找到</p>
+            </div>
+            <div class="modal-btn btn-blue">重新搜索</div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="application/javascript">
+$(".tabCom").on("click", function() {
+    if ($(this).attr("data-id") == 1) {
+        $(this).removeClass("cardLBoxShadow").addClass("active-tabl");
+        $(this).siblings('div').removeClass("active-tab2").addClass("cardRBoxShadow");
+        $("#cardLImg").attr("src", "img/mendian-active.png");
+        $("#cardRImg").attr("src", "img/position.png");
+        $("#headerImg").attr("src", "img/header-b.png");
+        
+        $(this).parent().parent().siblings("#card2").removeClass("uhide");
+        $(this).parent().parent().siblings("#card3").addClass("uhide");
+        
+    } else {
+        $(this).removeClass("cardRBoxShadow").addClass("active-tab2");
+        $(this).siblings('div').removeClass("active-tabl").addClass("cardLBoxShadow");
+        $("#cardRImg").attr("src", "img/position-active.png");
+        $("#cardLImg").attr("src", "img/mendian.png");
+        $("#headerImg").attr("src", "img/header.png");
+
+        $(this).parent().parent().siblings("#card2").addClass("uhide");
+        $(this).parent().parent().siblings("#card3").removeClass("uhide");
+    }
+})
+
+//searchBtn
+$(".searchBtn").on("click", function() {
+    var searchInput = $("#searchInput").val();
+    //console.log(searchInput);
+    if (!searchInput) {
+        $(".zhezhao").removeClass('uhide');
+    }
+})
+
+$(".modal-btn").on("click", function() {
+    $(".zhezhao").addClass('uhide');
+    //$("#searchInput").val('');
+})
+</script>
+
+</html>
