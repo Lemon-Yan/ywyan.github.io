@@ -1,4 +1,4 @@
- * {
+  * {
      margin: 0;
      padding: 0 
 }
@@ -25,7 +25,7 @@
 }
  */
  .head-img {
-     height: 11.25rem;
+     height: 4.864864864864865rem;
      background-image: url(../img/person.png);
      background-repeat: no-repeat;
      background-position: 50% 0rem;
@@ -39,15 +39,15 @@
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
      width: 100%;
-     margin-bottom: 1rem;
+     margin-bottom: 0.43243243243243246rem;
 }
  .head-img {
-     margin: 0 0 0.3125rem 0;
-     margin: 0.625rem 2.5rem;
+     margin: 0 0 0.13513513513513514rem 0;
+     margin: 0.2702702702702703rem 1.0810810810810811rem;
 }
  .head-img img {
      width: 80%;
-     height: 11.25rem;
+     height: 4.864864864864865rem;
 }
  .class-room {
      background: url(../img/txt-bg.png) no-repeat center;
@@ -55,50 +55,50 @@
      position: relative;
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
-     margin: 0 1.25rem;
+     margin: 0 0.5405405405405406rem;
 }
  .class-room h3 {
-     font-size: 1.0625rem;
+     font-size: 0.4594594594594595rem;
      color: #f25022;
      text-align: center;
-     line-height: 1.25rem;
-     padding-top: 0.9375rem;
+     line-height: 0.5405405405405406rem;
+     padding-top: 0.40540540540540543rem;
 }
  #startIcon::before {
      content: "";
      position: absolute;
-     top: 1.125rem;
-     left: 0.6875rem;
+     top: 0.4864864864864865rem;
+     left: 0.2972972972972973rem;
      z-index: 99;
      background: url(../img/start.png) no-repeat center;
-     background-size: 2.1875rem;
-     height: 3.125rem;
-     width: 3.125rem;
+     background-size: 0.9459459459459459rem;
+     height: 1.3513513513513513rem;
+     width: 1.3513513513513513rem;
 }
  #wowIcon::before {
      content: "";
      position: absolute;
-     top: -0.625rem;
-     right: 1.25rem;
+     top: -0.2702702702702703rem;
+     right: 0.5405405405405406rem;
      z-index: 99;
      background: url(../img/wow.png) no-repeat center;
-     background-size: 3.125rem;
-     height: 3.125rem;
-     width: 3.125rem;
+     background-size: 1.3513513513513513rem;
+     height: 1.3513513513513513rem;
+     width: 1.3513513513513513rem;
 }
  .class-con {
-     padding: 0 0.4375rem 1.875rem;
+     padding: 0 0.1891891891891892rem 0.8108108108108109rem;
      position: relative;
 }
  .class-con p {
-     font-size: 0.75rem;
+     font-size: 0.32432432432432434rem;
      color: #3e3a39;
-     line-height: 1.3125rem;
+     line-height: 0.5675675675675675rem;
      text-align: center;
 }
  .btn-con {
      position: absolute;
-     bottom: -0.1875rem;
+     bottom: -0.08108108108108109rem;
      left: 0;
      z-index: 99;
      width: 100%;
@@ -106,21 +106,22 @@
 }
  .btn-con .btn {
      background-color: #e83946;
-     width: 5.625rem;
-     height: 1.875rem;
-     border-radius: 0.9375rem;
+     width: 2.4324324324324325rem;
+     height: 0.8108108108108109rem;
+     border-radius: 0.40540540540540543rem;
      margin: 0 auto;
 }
- .btn-con .btn a {
-     font-size: 0.9375rem;
+ .btn-con .btn a { 
+     display: block;
+     font-size: 0.40540540540540543rem;
      color: #fff;
-     line-height: 1.875rem;
+     line-height: 0.8108108108108109rem;
      text-decoration: none;
 }
  .line {
      background: url(../img/line.png) no-repeat center;
-     margin: 0.625rem 1.875rem;
-     height: 0.3125rem;
+     margin: 0.2702702702702703rem 0.8108108108108109rem;
+     height: 0.13513513513513514rem;
      background-size: contain;
 }
  .date {
