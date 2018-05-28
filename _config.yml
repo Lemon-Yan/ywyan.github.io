@@ -15,9 +15,9 @@ url: "https://ywyan.github.io/" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-github_username: https://github.com/ywyan
+github_username: ywyan
 email: 1501372739@qq.com 
-zhihu_username: ywyan
+zhihu_username:ywyan.com 
 
 description_footer: 本站记录我前端之旅的沿途风景！
 
