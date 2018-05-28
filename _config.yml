@@ -8,7 +8,8 @@
 
 # Site settings
 title: ywyan
-brief-intro: Front-end Dev Engineer
+small-title: ywyan
+brief-intro: 前端之旅
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ywyan.github.io/" # the base hostname & protocol for your site
 
