@@ -26,7 +26,7 @@ type: page
 
 * GitHub：[ywyan](https://github.com/ywyan)
 * email：1501372739@qq.com
-* [简书](https://www.jianshu.com/u/035d7ce6a05f)
+* 简书：[简书](https://www.jianshu.com/u/035d7ce6a05f)
 
 ## 关于本站
 
