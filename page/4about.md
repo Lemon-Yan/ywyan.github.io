@@ -19,12 +19,12 @@ type: page
 
 * 2018.4  上海天正公司
 * 2017.6  宁波国信汇通金融科技有限公司（小程序开发，混合App开发）
-* 2015.12 上海怡德依云信息技术有限公司（教育类软件开发，研发部混合App开发，前端开发）
+* 2015.12 上海怡德依云信息技术有限公司（研发部教育类混合App开发，前端开发）
 * 2015.7  上海友亚信息科技有限公司（.net开发）
 
 ## 联系我
 
-* GitHub：[ywyan(https://github.com/ywyan)
+* GitHub：[ywyan](https://github.com/ywyan)
 * email：1501372739@qq.com
 * [简书](https://www.jianshu.com/u/035d7ce6a05f)
 
@@ -44,7 +44,10 @@ type: page
 
 ## 友情链接
 
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
+[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)\|  [gaohaoyang](https://gaohaoyang.github.io/)\| [logan70](https://logan70.github.io/)
+
+
+
 
 ## Comments
 
