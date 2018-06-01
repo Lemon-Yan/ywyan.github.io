@@ -1,17 +1,30 @@
+---
+layout: post
+title:  "微信小程序之根据经纬度反查地址"
+categories: 微信小程序
+tags: 小程序
+author: ywyan
+---
+
+* content
+{:toc}
+
+
+
 *最近做微信小程序项目中遇到根据后台接口获取城市某个区域内的信息，后台接口要求传入城市的区域名称，例如上海市杨浦区，小程序官方地址提供的API只能获取到用户当前的经纬度，如何通过经纬度查询到用户的当前位置成了一个问题。所以通过研究和查询资料解决了这个问题，现共享给大家。*
 
 我是通过腾讯地图逆地址解析，在通过经纬度获取详细的位置信息数据。
 
 根据腾讯地图API，以图文的方式说明如何获取详细的位置信息数据。具体参考腾讯地图Webservice API的介绍。地址：[腾讯位置服务](http://link.zhihu.com/?target=http%3A//lbs.qq.com/webservice_v1/guide-geocoder.html)
 
-####step1:申请腾讯地图密钥（key），申请地址：[申请密钥](http://link.zhihu.com/?target=http%3A//lbs.qq.com/console/key.html)
+#### step1:申请腾讯地图密钥（key），申请地址：[申请密钥](http://link.zhihu.com/?target=http%3A//lbs.qq.com/console/key.html)
 
 填写完成后即可获取到对应的key值。
 
  ![申请腾讯地图密钥.png](http://upload-images.jianshu.io/upload_images/4041074-9bac7902d91a41fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-####step2:通过小程序官方API获取用户当前位置经纬度。然后根据腾讯Webservice API逆地址解析相关介绍，传入获取到的经纬度，即可获取。
+#### step2:通过小程序官方API获取用户当前位置经纬度。然后根据腾讯Webservice API逆地址解析相关介绍，传入获取到的经纬度，即可获取。
 
 示例代码：
 
