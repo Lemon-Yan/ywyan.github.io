@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Vue.js学习之组件"
-categories: 微信小程序
-tags: 小程序
+categories: Vue
+tags: Vue
 author: ywyan
 ---
 
