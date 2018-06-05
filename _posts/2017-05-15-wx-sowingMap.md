@@ -81,6 +81,6 @@ step3:样式文件
   height: 100%;
 }
 ```
-######GitHub项目源代码及下载地址：[轮播图](https://github.com/1501372739/wx-carousel.git)   
+##### GitHub项目源代码及下载地址：[轮播图](https://github.com/1501372739/wx-carousel.git)   
 
 
